@@ -1,0 +1,212 @@
+
+nav#loginNavbar {
+  position: fixed;
+  padding: 0px 120px;
+  top: 0;
+  height: var(--navbar-height);
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+
+}
+#loginNavbar  .navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#loginNavbar .left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  gap: 36px;
+}
+#loginNavbar .left button.menu {
+  background-color: transparent;
+  border: none;
+
+  font-size: 24px;
+  color: var(--mtyellow-4);
+
+  display: none;
+}
+#loginNavbar .left button.logo {
+  background-color: transparent;
+  border: none;
+}
+#loginNavbar .left .nav_navigations {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: 0;
+  gap: 24px;
+}
+#loginNavbar .left .nav_navigations li {
+  list-style: none;
+}
+#loginNavbar .left .link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: var(--mtyellow-4);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+#loginNavbar .left .link:hover {
+  color: var(--mtyellow-4);
+  text-decoration: underline;
+}
+
+#loginNavbar .right {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px;
+}
+#loginNavbar .right .nav_icons {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: 0;
+  gap: 36px;
+}
+#loginNavbar .right .nav_icons li {
+  list-style: none;
+}
+#loginNavbar .right .nav_icons li .link {
+  color: var(--mtyellow-4);
+  font-size: 28px;
+}
+#loginNavbar .right .nav_icons li:first-of-type {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 44px;
+  color: var(--mtyellow-4);
+  cursor: text;
+  font-size: 28px;
+
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  overflow: hidden;
+}
+
+#loginNavbar .right .nav_icons li:first-of-type input{
+  width: 300px;
+  height: 32px;
+
+  color: var(--mtgrey-2);
+  font-size: 22px;
+  font-weight: 400;
+
+  background-color: transparent;
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  background-color: transparent;
+  user-select: none;
+  outline: none;
+
+  display: flex;
+  justify-content: center;
+}
+
+#loginNavbar .right .nav_icons li:first-of-type input:hover{
+  outline: none;
+}
+#loginNavbar .right .nav_icons li:first-of-type span {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: var(--mtgrey-3);
+  user-select: none;
+}
+#loginNavbar .right .profile {
+  width: 30px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: var(--mtgreen-1);
+}
+
+@media screen and (max-width: 391px) {
+  body {
+    padding-top: env(safe-area-inset-top);
+    background-color: transparent;
+  }
+  nav#loginNavbar  {
+    position: fixed;
+    padding: 0px 15px;
+    height: var(--navbar-mobile-height);
+    width: 390px;
+
+    align-items: center;
+  }
+  #loginNavbar .navbar {
+    width: 100%;
+    padding: 0 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #loginNavbar .left {
+    gap: 20px;
+  }
+  #loginNavbar .left button.menu {
+    padding: 0;
+    display: inline-block;
+  }
+  #loginNavbar .left #logo {
+    width: 65px;
+  }
+  #loginNavbar .left ul.nav_navigations {
+    display: none;
+  }
+  #loginNavbar .right .nav_icons {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0;
+    gap: 22px;
+  }
+  #loginNavbar .right .nav_icons li .link {
+    font-size: 24px;
+  }
+  #loginNavbar .right .nav_icons li:first-of-type{
+    padding: 0;
+    background-color: transparent;
+  }
+}
+
+#loginNavbar .mobile_menu {
+  display: none;
+}
+#loginNavbar .mobile_nav {
+  display: none;
+}
+@media screen and (max-width: 390px) {
+  #loginNavbar .mobile_nav {
+    display: block;
+  }
+  #loginNavbar .mobile_menu {
+    margin-top: var(--navbar-height);
+    width: 200px;
+    height: calc(100% - var(--navbar-height) - 130px) px;
+    background-color: var(--mtyellow-1);
+    z-index: 4;
+  }
+}

@@ -1,0 +1,478 @@
+html,
+body {
+  background-color: #FFFFF2;
+}
+
+
+/* ALL */
+
+.container_all {
+  margin: 85px 120px;
+}
+
+
+.btn_style {
+  border: none;
+  background-color: transparent;
+  padding: 0 3px;
+}
+
+/* Breadcrumb */
+.container_all .bread {
+  background-color: transparent;
+  z-index: 0;
+  -bsBreadcrumbDivider: 'url("data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="8" height="8"%3E%3Cpath d="M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z" fill="currentColor"/%3E%3C/svg%3E")';
+  position: relative;
+  padding: 0px;
+}
+
+.li_font {
+  color: #033A13
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* trails card > left-card > puctures */
+.img_cover_one {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  height: 500px;
+  /* transition-duration: 3s;
+  transition-property: opacity; */
+}
+
+
+.img_cover_one:not([src]) {
+  /* opacity: 0; */
+}
+
+.img_wrap_three {
+  gap: 20px;
+}
+
+.img_cover_three {
+  width: 263px;
+  height: 155px;
+
+}
+
+/* .img_wrap_small {
+  width: 100%;
+  object-fit: contain;
+} */
+
+/* detail right card */
+
+.geo_font_size {
+  font-size: 18px;
+}
+
+/* category button group */
+.ca_btn {
+  background-color: rgb(108, 186, 124, 0.4);
+}
+
+.ca_h6 {
+  color: #033A13;
+}
+
+/* category content group */
+.ca_content {
+  height: 70px;
+  background: rgba(206, 232, 203, 0.5);
+  border-radius: 10px;
+}
+
+.ca_border {
+  border-right: 2px solid var(--mtgreen-3)
+}
+
+.ca_content_a {
+  /* width: 260px; */
+}
+
+/* FIXME: */
+
+.ca_h6 {
+  font-size: 18px;
+}
+
+.paragraph_i {
+  text-indent: 2rem;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+  padding-bottom: 40px;
+  margin-bottom: -20px;
+}
+
+.img_contain {
+  width: 100%;
+  object-fit: contain;
+}
+
+/* shop-button-group */
+.shop_btn_one {
+  border: solid 2px var(--mtgreen-1);
+  border-radius: 5px;
+  height: 43px;
+}
+
+.btn_one_margin {
+  margin-bottom: 12px;
+}
+
+.btn_one_mobile {
+  border: solid 2px var(--mtgreen-1);
+  border-radius: 5px;
+}
+
+.count_style {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.shop_btn_two {
+  border: solid 2px var(--mtgreen-1);
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
+.batch {
+  color: var(--mtgrey-4);
+  background-color: var(--mtgreen-1);
+  border-radius: 3px 0px 0px 3px;
+  width: 70px;
+  height: 43px;
+}
+
+.batch_font {
+  font-size: 15px;
+}
+
+/* rotate active */
+.rotate_a {
+  transform: rotate(90deg);
+  transition: 0.2s;
+}
+
+.not_rotate {
+  transform: rotate(0deg);
+  transition: 0.2s;
+}
+
+.select_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  border: none;
+  background-color: transparent;
+  width: 700px;
+  height: 35px;
+  text-align: center;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+
+}
+
+
+.shop_btn_sm {
+  color: var(--mtgreen-1);
+  border: 2px solid var(--mtgreen-1);
+  border-radius: 5px;
+}
+
+.shop_btn_three {
+  border: solid 2px var(--mtgreen-1);
+  border-radius: 5px;
+  color: white;
+  background-color: var(--mtgreen-1);
+  height: 43px;
+  padding: 6px 24px;
+}
+.modal{
+  background-color: var(--mtyellow-4);
+  border-radius: 10px;
+}
+.modalContent{
+  background-color: var(--mtyellow-4);
+  border-radius: 10px;
+}
+.shopModal_footer{
+  height: 70px;
+}
+.shopModal_btn_forth{
+width:110px;
+height: 100%;
+margin: 10px;
+border: solid 2px var(--mtgreen-1);
+border-radius: 5px;
+color: white;
+background-color: var(--mtgreen-1);
+height: 30px;
+}
+.shopModal_continue{
+  font-size: 17px;
+}
+
+.shop_btn_mobile {
+  border: solid 2px var(--mtgreen-1);
+  border-radius: 5px;
+  color: white;
+  background-color: var(--mtgreen-1);
+}
+
+.btn_font {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  height: 27px;
+  letter-spacing: 0.1em;
+}
+
+.icon_color {
+  color: var(--mtgreen-1);
+}
+
+
+
+.Vector_long {
+  width: 100%;
+}
+
+/* login commont for phone  */
+.login_commont_star {
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 8px;
+}
+
+.login_commont {
+  text-decoration: none;
+  border: 2px solid var(--mtgreen-3);
+  background: rgba(206, 232, 203, 0.6);
+  border-radius: 10px;
+  height: 100px;
+  margin-bottom: 8px;
+}
+
+.enter_commont_phone {
+  border: solid 2px var(--mtgreen-1);
+  border-radius: 5px;
+  height: 35px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 27px;
+  background-color: var(--mtgreen-1);
+  margin-bottom: 32px;
+}
+
+.enter_commont {
+  border: solid 2px var(--mtgreen-1);
+  border-radius: 5px;
+  height: 45px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  line-height: 27px;
+  background-color: var(--mtgreen-1);
+  margin-bottom: 32px;
+}
+
+/* commont card: left-card  */
+
+.left_card {
+  height: 65px;
+}
+
+.rate_point {
+  background-color: var(--mtgreen-1);
+  flex-grow: 1;
+  text-align: center;
+  color: #FFFFF2;
+  margin: 0;
+}
+
+.point_h1 {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+/* commont card: right-card * n */
+
+.card_b_b {
+  border-bottom: 1px solid var(--mtgrey-3);
+}
+
+/* head picture */
+.rounded_circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--mtgreen-1);
+  margin: 0px 15px;
+}
+
+.star {
+  /* margin-left: -4px; */
+}
+
+/* commont card: right-card > level3 > imges */
+.commont_p {
+  text-align: justify;
+  font-size: 16px;
+  padding-right: 15px;
+  text-indent: 27px;
+}
+
+.img_cover {
+  width: 33.3%;
+  object-fit: cover;
+}
+
+.more_img {
+  width: 100%;
+  object-fit: fill;
+}
+
+.img_wrap {
+  width: 100%;
+  /* background: linear-gradient(0deg, rgba(1, 19, 6, 0.5), rgba(1, 19, 6, 0.5)), url(../../public/imgs/Davis/3-1.jpg); */
+  background: linear-gradient(0deg, rgba(1, 19, 6, 0.5), rgba(1, 19, 6, 0.5));
+  background-size: 100% 100%;
+  color: var(--mtgrey-4);
+}
+
+.member_ca {
+  background-color: var(--mtyellow-1);
+  color: var(--mtyellow-4);
+  border-radius: 18px;
+  padding: 1px 7px;
+  font-weight: 700;
+}
+
+
+/* pagination */
+.details_pagination .pagination_nav {
+  position: relative;
+  padding: 0px;
+}
+
+.pagination_nav .li_margin {
+  margin: 4px;
+}
+
+.pagination_nav .a_decoration {
+  color: var(--mtgreen-1);
+  border-radius: 5px;
+  border: 1px solid var(--mtgreen-4);
+}
+
+/* phone_bottom */
+.phone_bottom {
+  display: flex;
+  height: 250px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 15px 48px;
+  gap: 12px;
+  box-shadow: 0px -2px 28px rgba(1, 19, 6, 0.12);
+}
+
+.phone_bottom .phone_bottom_btn {
+  border: solid 2px var(--mtgreen-1);
+  border-radius: 5px;
+  height: 35px;
+}
+
+.phone_bottom .h5_count {
+  display: flex;
+  align-self: center;
+  font-size: 20px;
+  margin-bottom: 0px;
+  justify-content: center;
+}
+
+.phone_bottom .btn_group {
+  gap: 12px;
+  height: 40px;
+}
+
+/* .phone_bottom .phone_bottom_btn{
+  border: solid 2px var(--mtgreen-1);
+  border-radius: 5px;
+  color: white;
+  background-color: var(--mtgreen-1);
+  height: 40px;
+} */
+
+/* #DavisTrailsGpx */
+.gpx_iframe {
+  width: 797px;
+  height: 560px;
+  position: relative;
+  top: -90px;
+  border: none;
+}
+
+.gpx_wrap {
+  height: 450px;
+  border: 2px solid #eee;
+  display: inline-block;
+  overflow: hidden;
+}
+
+@media (max-width: 391px) {
+  .container_all {
+    width: 100%;
+    margin: 5px;
+  }
+
+  .container_all .top_img {
+    width: 100%;
+    /* margin: 0px -20px; */
+    margin-top: 100px;
+    margin-bottom: 16px;
+  }
+
+  .img_cover_one {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 5px;
+    height: 400px;
+    /* transition-duration: 3s;
+    transition-property: opacity; */
+  }
+
+  .gpx_wrap {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    border: none;
+  }
+
+  .gpx_iframe {
+    width: 100%;
+    height: 300px;
+    border: 2px solid #eee;
+    display: inline-block;
+    overflow: hidden;
+  }
+}
