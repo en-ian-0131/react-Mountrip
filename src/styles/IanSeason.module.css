@@ -183,14 +183,14 @@ html body {
   /* products ------------------- */
   
   /* carousel ------------------- */
-  section.comments {
+  .comments {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
   }
-  section.comments h4 {
+  .comments h4 {
     margin: 0;
     font-weight: 700;
     font-size: 32px;
@@ -198,7 +198,7 @@ html body {
     letter-spacing: 0.1em;
     color: var(--mtgreen-1);
   }
-  section.comments .comment_carousel {
+  .comments .comment_carousel {
     width: 1660px;
     /* padding: 0px 120px; */
     display: flex;
@@ -208,23 +208,23 @@ html body {
     /* gap: 10px; */
   }
 
-  section.comments > div.commentFirst_svg{
+  /* .comments > div.commentFirst_svg{
     width: 95%;
     position: absolute;
     top: 50%;
     left: 2%;
-  }
+  } */
 
-section.comments > div.commentSecond_svg{
+/* .comments > div.commentSecond_svg{
 width: 90%;
 position: absolute;
 top: 50%;
 right: 2%;
 display: flex;
 justify-content:end;
-  }
+  } */
 
-  section.comments .comment {
+  .comments .comment {
     width: 405px;
     height: 470px;
     padding: 20px;
@@ -241,7 +241,7 @@ justify-content:end;
 
   }
 
-section.comments .comment h5 {
+.comments .comment h5 {
   margin: 0;
   font-weight: 400;
   font-size: 14px;
@@ -250,11 +250,11 @@ section.comments .comment h5 {
   color: var(--mtyellow-4);
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
 }
-section.comments .comment h5 span:first-child {
+.comments .comment h5 span:first-child {
   font-weight: 700;
   font-size: 16px;
 }
-section.comments .comment p {
+.comments .comment p {
   margin: 0;
   font-weight: 300;
   font-size: 16px;
@@ -347,7 +347,7 @@ section.comments .comment p {
     /* products ------------------- */
     section.products {
       width: 100%;
-      height: 510vh;
+      height: 515vh;
       padding: 0px 15px;
       margin-top: -20px;
   
@@ -410,48 +410,99 @@ section.comments .comment p {
     /* products ------------------- */
   
     /* carousel ------------------- */
-    section.comments {
-      height: 90vh;
+    .comments {
+      /* height:90vh; */
       margin-top: 64px;
       margin-bottom: 0;
       padding: 0px 15px;
       overflow-x: hidden;
     }
-    section.comments h4{
-      margin-bottom: 20px;
+    .comments h4{
       font-weight: 700;
       font-size: 22px;
       line-height: 26px;
       padding: 0px 30px;
       justify-content: space-between;
+      color: var(--mtgreen-1);
     }
-    /* section.comments h3 span:not(:nth-child(2)) {
-      gap: 2px;
-    } */
-  /* section.comments h3 span:not(:nth-child(2)) img {
-      width: 22px;
-      aspect-ratio: 1/1;
-    } */
-    section.comments .comment_carousel {
+    .comments .comment_carousel {
       width: 100%;
       padding: 10px;
       justify-content: flex-start;
     }
-    section > div.commentFirst_svg > svg, div.commentSecond_svg > svg{
+    /* div > div.commentFirst_svg > svg, div.commentSecond_svg > svg{
       display: none;
-    }
-    section.comments .comment {
+    } */
+    .comments .comment {
       width: 300px;
       height: 374px;
       padding: 20px;
       flex-shrink: 0;
     }
-    section.comments .comment h5 {
+    .comments .comment h5 {
       font-weight: 700;
       font-size: 16px;
     }
-    section.comments .comment p {
+    .comments .comment p {
       font-size: 13px;
     }
     /* carousel ------------------- */
+.sectionSwiper{
+  overflow: hidden;
+}
+.comment2{
+  width: 1100px;
+  height: 55vh;
+  --swiper-navigation-color:transparent;
+  --swiper-scrollbar-bg-color:transparent;
+  --swiper-scrollbar-drag-bg-color:transparent;
+}
+    
+.abc{
+  width:100%;
+  height: 300px;
+  border-radius: 10px;
+  position: relative;
+}
+.content{
+  position: absolute;
+  bottom: 0%;
+  /* padding: 15px; */
+}
+
+.abc > .content > div > .commentMember{
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--mtyellow-4);
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+.abc > .content > div > .commentDate{
+  margin: 0;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+  color: var(--mtyellow-4);
+  text-shadow: 0px 0px 4px #000000;
+}
+.abc > .content > .haveComment{
+  width: 100%;
+  margin: 0;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: var(--mtyellow-4);
+  text-shadow: 0px 0px 4px #000000;
+}
+.commentImg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
   }

@@ -11,7 +11,7 @@ export const IanSwiper = ({ comment }) => {
     <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       // loop={true}
-      // spaceBetween={0}
+      spaceBetween={0}
       slidesPerView={4}
       navigation
       pagination={{ clickable: true }}
